@@ -24,7 +24,7 @@ export function SkillsSection() {
     {
       title: "Tests & Automatisation",
       icon: <Bug className="text-green-600" />,
-      skills: ["Selenium", "Cypress", "Tests automatisés", "TDD/BDD", "Playwright", "Postman"],
+      skills: ["Selenium", "Cypress", "Tests automatisés", "TDD/BDD", "Playwright", "Postman", "Bruno"],
     },
     {
       title: "Bases de données & APIs",
