@@ -5,7 +5,7 @@ import { GraduationCap, Building2, Calendar, Trophy } from "lucide-react";
 export function EducationSectionEn() {
   const educationItems = [
     {
-      title: "Bachelor's Degree in Computer Science – Software Development",
+      title: "Bachelor's Degree in Computer Science – Software Development with Cybersecurity specialization",
       institution: "Haute École Léonard de Vinci, Brussels, Belgium",
       period: "2021 – 2024",
       description: "Application development program. Successfully completed the first year with distinction. Served as class representative.",
