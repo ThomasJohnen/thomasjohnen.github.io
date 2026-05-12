@@ -5,7 +5,7 @@ import { GraduationCap, Building2, Calendar, Trophy } from "lucide-react";
 export function EducationSection() {
   const educationItems = [
     {
-      title: "Bachelor Informatique, Programmation informatique, applications spécifiques",
+      title: "Bachelier Informatique, Programmation informatique avec option Cybersécurité",
       institution: "Haute École Léonard de Vinci, Bruxelles",
       period: "2021 - 2024",
       description: "Formation en développement d'applications. Première année réussie avec succès. Délégué de classe.",
