@@ -23,7 +23,7 @@ export function ExperienceSectionEn() {
       side: "right",
     },
     {
-      title: "Founder & Full Stack Developer",
+      title: "freelance digital marketer",
       company: "E-volutio",
       location: "Brussels, Belgium",
       period: "January 2019 – October 2022", 
