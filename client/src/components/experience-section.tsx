@@ -23,7 +23,7 @@ export function ExperienceSection() {
       side: "right",
     },
     {
-      title: "Fondateur & Développeur Full Stack",
+      title: "Indépendant en marketing digital",
       company: "E-volutio",
       location: "Bruxelles, Belgique",
       period: "Janvier 2019 - Octobre 2022",
