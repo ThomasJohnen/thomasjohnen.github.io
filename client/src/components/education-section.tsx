@@ -8,7 +8,7 @@ export function EducationSection() {
       title: "Bachelier Informatique, Programmation informatique avec option Cybersécurité",
       institution: "Haute École Léonard de Vinci, Bruxelles",
       period: "2021 - 2024",
-      description: "Formation en développement d'applications. Première année réussie avec succès. Délégué de classe.",
+      description: "Formation en développement d'applications. Délégué de classe.",
       icon: <GraduationCap className="text-primary" />,
       status: "Diplômé",
       type: "degree"
