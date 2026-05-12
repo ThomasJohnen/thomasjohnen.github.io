@@ -24,7 +24,7 @@ export function SkillsSectionEn() {
     {
       title: "Testing & Automation",
       icon: <Bug className="text-green-600" />,
-      skills: ["Selenium", "Jest", "Cypress", "Automated Testing", "TDD/BDD", "Playwright", "Postman"],
+      skills: ["Selenium", "Cypress", "Automated Testing", "TDD/BDD", "Playwright", "Postman", "Bruno"],
     },
     {
       title: "Databases & APIs",
@@ -34,7 +34,7 @@ export function SkillsSectionEn() {
     {
       title: "DevSecOps & Tools",
       icon: <Settings className="text-purple-600" />,
-      skills: ["Git", "Docker", "CI/CD", "Jenkins", "GitLab", "DevSecOps"],
+      skills: ["Git", "Docker", "CI/CD", "Jenkins", "GitLab", "DevSecOps", "Kubernetes", "Ansible"],
     },
     {
       title: "Soft Skills",
