@@ -34,7 +34,7 @@ export function SkillsSection() {
     {
       title: "DevSecOps & Outils",
       icon: <Settings className="text-purple-600" />,
-      skills: ["Git", "Docker", "CI/CD", "Jenkins", "GitLab", "DevSecOps"],
+      skills: ["Git", "Docker", "CI/CD", "Jenkins", "GitLab", "Kubernetes", "Ansible"],
     },
     {
       title: "Soft Skills",
