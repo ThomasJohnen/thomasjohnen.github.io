@@ -8,10 +8,10 @@ export function EducationSectionEn() {
       title: "ISTQB Certification",
       period: "December 2025",
       description: "Tester Foundation level",
-      icon: <GraduationCap className= "text-purple-600/>,
+      icon: <GraduationCap className= "text-purple-600" />,
       status: "Certified",
       type: "certification"
-    }
+    },
     {
       title: "Bachelor's Degree in Computer Science – Software Development with Cybersecurity specialization",
       institution: "Haute École Léonard de Vinci, Brussels, Belgium",

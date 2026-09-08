@@ -9,7 +9,6 @@ export function ExperienceSectionEn() {
       company: "Buy Way Personal Finance",
       location: "Brussels, Belgium",
       period: "July 2024 – Present",
-                performance et sécurité tout au long du cycle logiciel.
       description: " In charge of designing, implementing, and maintaining automated tests to ensure the highest level of application quality. In charge of developing a SIEM (Security Information and Event Management). Responsible for the testing environment. Maintain the User Acceptance Test (UAT) servers. main point of contact for business testers. Internship supervisor.",
       skills: ["Automated testing", "Quality assurance", "Test environment management", "Postman", "CI/CD", "Kubernetes", "Jenkins", "Ansible"],
       side: "left",
