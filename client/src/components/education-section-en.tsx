@@ -6,6 +6,7 @@ export function EducationSectionEn() {
   const educationItems = [
     {
       title: "ISTQB Certification",
+      institution: "ISTQB - online",
       period: "December 2025",
       description: "Tester Foundation level",
       icon: <GraduationCap className= "text-purple-600" />,
