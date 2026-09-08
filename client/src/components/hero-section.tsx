@@ -8,8 +8,8 @@ export function HeroSection() {
 
   const handleDownloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/CV_Thomas_Johnen.pdf';
-    link.download = 'CV_Thomas_Johnen.pdf';
+    link.href = '/CV-Johnen-FR.pdf';
+    link.download = 'CV-Johnen-FR.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -48,10 +48,7 @@ export function HeroSection() {
                 <span>Bruxelles, Belgique</span>
               </div>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Diplômé en Informatique de gestion à la Haute École Léonard de Vinci, 
-                je conçois des tests automatisés robustes pour garantir la qualité des applications. 
-                Fort d'une expérience en DevSecOps et développement full-stack, j'assure fiabilité, 
-                performance et sécurité tout au long du cycle logiciel.
+		Diplômé en Informatique de gestion à la Haute École Léonard de Vinci, je conçois des tests automatisés robustes pour garantir la qualité des applications. Fort d'une expérience en DevSecOps et développement full-stack, j'assure fiabilité, performance et sécurité tout au long du cycle logiciel.
               </p>
             </div>
 

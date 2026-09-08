@@ -5,7 +5,7 @@ import { insertContactSchema } from "@shared/schema";
 import { z } from "zod";
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const resend = process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KEY) : null;
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // Contact form submission endpoint
@@ -29,6 +29,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       console.log("API Key present:", !!process.env.RESEND_API_KEY);
       
       try {
+        if (!resend) throw new Error("Resend not configured");
         const result = await resend.emails.send({
           from: 'onboarding@resend.dev', // Default Resend sender for testing
           to: 'resend.yard384@passmail.net', // Resend account email (for testing)

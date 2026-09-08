@@ -5,6 +5,14 @@ import { GraduationCap, Building2, Calendar, Trophy } from "lucide-react";
 export function EducationSectionEn() {
   const educationItems = [
     {
+      title: "ISTQB Certification",
+      period: "December 2025",
+      description: "Tester Foundation level",
+      icon: <GraduationCap className= "text-purple-600/>,
+      status: "Certified",
+      type: "certification"
+    }
+    {
       title: "Bachelor's Degree in Computer Science – Software Development with Cybersecurity specialization",
       institution: "Haute École Léonard de Vinci, Brussels, Belgium",
       period: "2021 – 2024",

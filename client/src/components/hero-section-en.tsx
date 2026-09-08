@@ -7,8 +7,8 @@ export function HeroSectionEn() {
 
   const handleDownloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/CV_Thomas_Johnen.pdf';
-    link.download = 'CV_Thomas_Johnen.pdf';
+    link.href = '/CV-Johnen-EN.pdf';
+    link.download = 'CV-Johnen-EN.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

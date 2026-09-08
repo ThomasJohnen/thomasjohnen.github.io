@@ -9,8 +9,8 @@ export function ExperienceSection() {
       company: "Buy Way Personal Finance",
       location: "Bruxelles, Belgique",
       period: "Juillet 2024 - Présent",
-      description: "Responsable de l'élaboration, l'implémentation et la maintenance de tests automatisés pour assurer le plus haut niveau de qualité des applications. Garant de l'environnement de test et point de contact privilégié des testeurs métiers. De plus, je suis en charge du développement d'un SIEM",
-      skills: ["Tests automatisés", "Assurance qualité", "Environnement de test", "Postman", "CI/CD"],
+      description: "Responsable de la conception, de la mise en œuvre et de la maintenance de tests automatisés pour garantir un niveau optimal de qualité applicative. De plus, je suis en charge de la conception et du déploiement d'un SIEM (Security Information and Event Management). Gestion de l'environnement de test. Maintenance des serveurs de User Acceptance Testing (UAT). Point de contact principal pour les testeurs métiers. Superviseur de stage",
+      skills: ["Tests automatisés", "Assurance qualité", "Environnement de test", "Postman", "CI/CD", "Kubernetes", "Docker", "Ansible"],
       side: "left",
     },
     {

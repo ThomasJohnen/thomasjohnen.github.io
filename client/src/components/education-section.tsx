@@ -5,13 +5,21 @@ import { GraduationCap, Building2, Calendar, Trophy } from "lucide-react";
 export function EducationSection() {
   const educationItems = [
     {
-      title: "Bachelier Informatique, Programmation informatique avec option Cybersécurité",
+      title: "Certification ISTQB"
+      period: "Decembre 2025",
+      description: "Tester Foundation level"
+      icon: <GraduationCap className="texte-purple-600" />
+      status: "Certifié",
+      type: "certification"
+    }
+    {
+      title: "Bachelor Informatique, Programmation informatique avec option Cybersécurité",
       institution: "Haute École Léonard de Vinci, Bruxelles",
       period: "2021 - 2024",
       description: "Formation en développement d'applications. Délégué de classe.",
       icon: <GraduationCap className="text-primary" />,
       status: "Diplômé",
-      type: "degree"
+      type: "bachelier"
     },
     {
       title: "Formations en ligne spécialisées",
